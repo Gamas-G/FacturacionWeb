@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <title>MaterialesAgustini</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Materiales <span>Garcia</span></h1>
+    </header>
+
+    <h2 class="title">Genera tu Cotización</h2>
+
+    <main class="container">
+        <aside class="sidebar">
+            <h3 class="title">Categorias</h3>
+            <form class="categories">
+                <ul class="category-card">
+                    <li class="card-container group">
+                        <input class="card-checkbox" type="checkbox" name="category-check" id="category-check">
+                        <label for="category-check" class="category-card-name">Nombre de Categoria</label>
+                        <button type="button" class="card-btn" id="btn-collaps">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </li>
+                    <ul class="card-items" id="card-subitems">
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item1" id="category-check-item1">
+                            <label for="category-check-item1" class="category-card-name">Item1</label>
+                        </li>
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item2" id="category-check-item2">
+                            <label for="category-check-item2" class="category-card-name">Item2</label>
+                        </li>
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item3" id="category-check-item3">
+                            <label for="category-check-item3" class="category-card-name">Item1</label>
+                        </li>
+                    </ul>
+                </ul>
+                <ul class="category-card">
+                    <li class="card-container group">
+                        <input class="card-checkbox" type="checkbox" name="category-check2" id="category-check2">
+                        <label for="category-check2" class="category-card-name">Nombre de Categoria2</label>
+                        <button class="card-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="category-card">
+                    <li class="card-container group">
+                        <input class="card-checkbox" type="checkbox" name="category-check2" id="category-check2">
+                        <label for="category-check2" class="category-card-name">Nombre de Categoria2</label>
+                        <button class="card-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </li>
+                </ul>
+                <ul class="category-card">
+                    <li class="card-container group">
+                        <input class="card-checkbox" type="checkbox" name="category-check2" id="category-check2">
+                        <label for="category-check2" class="category-card-name">Nombre de Categoria2</label>
+                        <button class="card-btn">
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                    </li>
+                    <ul class="card-items">
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item4" id="category-check-item4">
+                            <label for="category-check-item4" class="category-card-name">Item4</label>
+                        </li>
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item5" id="category-check-item5">
+                            <label for="category-check-item5" class="category-card-name">Item5</label>
+                        </li>
+                        <li class="card-container">
+                            <input class="card-checkbox" type="checkbox" name="category-check-item6" id="category-check-item6">
+                            <label for="category-check-item6" class="category-card-name">Item6</label>
+                        </li>
+                    </ul>
+                </ul>
+            </form>
+        </aside>
+        <div class="articles">
+            <h3 class="title">Nuestros productos</h3>
+            <form class="search-bar" action="">
+                <input class="search-input" type="search" name="" id="" placeholder="Buscar, Marca, Material, etc..." aria-label="Search">
+                <button type="submit" class="search-btn">
+                    <img src="img/magnify.svg">
+                </button>
+            </form>
+            <div class="pruductos">
+                <section class="producto-section">
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                </section>
+                <section class="producto-section">
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                    <article class="video-container">
+                        <!-- <a href="#" class="thumbnail" data-duration="45:00"> -->
+                            <img class="thumbnail-image" src="img/Cemento-Maya.jfif">
+                        <!-- </a> -->
+                            <div class="producto-bottom-section">
+                                    <label class="producto-title">Cemento Gris</label>
+                                    <label class="producto-marca">Maya</label>
+                                    <label class="producto-precio">$100.00</label>
+                                    <div class="producto-metadata">
+                                        <input class="producto-cantidad" type="number" name="" id="">
+                                        <button class="producto-btn">Agregar</button>
+                                    </div>
+                            </div><!-- video-bottom-section -->
+                    </article>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <div class="facturas">
+        <div class="factura-container">
+            <h2 class="title">Tu Lista</h2>
+            <table class="registrados">
+                <thead>
+                    <tr>
+                        <th>Cantidad</th>
+                        <th>Nombre</th>
+                        <th>Marca</th>
+                        <th>Precio Unitario</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>Cemento Blanco</td>
+                        <td>Maya</td>
+                        <td>$100</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cemento Blanco</td>
+                        <td>Maya</td>
+                        <td>$100</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cemento Blanco</td>
+                        <td>Maya</td>
+                        <td>$100</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Cemento Blanco</td>
+                        <td>Maya</td>
+                        <td>$100</td>
+                        <td>$200</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total:</td>
+                        <td>$800</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+
+    <!-- <footer>
+        <div>
+            <h1>Materiales <span>Garcia</span></h1>
+            <div>
+                <a href="#">facebook</a>
+            </div>
+
+        </div>
+    </footer> -->
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+    <script src="js/js.js"></script>
+</body>
+</html>

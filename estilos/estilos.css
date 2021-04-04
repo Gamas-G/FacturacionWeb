@@ -1,0 +1,192 @@
+:root{
+    --gris:#f2f2f2;
+}
+html{
+    box-sizing: border-box;
+}
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ background-color: var(--gris)!important;
+ font-family: Roboto, Helvetica, sans-serif;
+ font-size: 16px;
+}
+.container{
+    display: flex;
+    padding: 15px;
+}
+/* ZONA ASIDE DE LAS CATEGORIAS */
+.sidebar{
+    width: 20%;
+    background-color: #fff;
+    margin-right: 1rem;
+}
+.title{
+    text-align: center;
+    margin: 1.2rem 0;
+}
+ul{
+    padding: 0!important;
+}
+.category-card{
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: .3rem;
+    box-shadow: .1rem .1rem #ccc;
+    /* border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem; */
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 1rem 15px;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+.card-checkbox{
+    transform: scale(1.2);
+    margin-right: .3rem;
+}
+.category-card-name,
+.card-checkbox,
+.card-btn{
+    cursor: pointer;
+}
+.card-btn{
+    position: absolute;
+    padding: .3rem;
+    border: none;
+    background-color: transparent;
+    right: 15px;
+    font-size: 1rem;
+}
+
+.card-items{
+    display: none;
+    margin-left: 10px;
+}
+
+/* ZONA DE LOS ARTICULOS */
+.articles{
+    width: 100%;
+    background-color: #fff;
+}
+.search-bar{
+    display: flex;
+    flex-grow: 1;
+    margin: 0 2rem 0 4rem;
+}
+.search-input{
+    width: 100%;
+    font-size: inherit;
+    padding: .4em;
+    border: 1px solid #777;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.search-btn{
+    display: flex;
+    align-items: center;
+    padding: 0 1.25rem;
+    border: 1px solid #777;
+    background-color: #f8f8f8;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    cursor: pointer;
+}
+.search-btn:hover{
+    background-color: #f0f0f0;
+}
+.producto-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 3rem 2rem;
+    padding: 3rem 0;
+    margin: 0 1.5rem;
+}
+.thumbnail-image{
+    width: 150px;
+    height: 190px;
+}
+.producto-bottom-section{
+    display: flex;
+    flex-direction: column;
+}
+.producto-metadata{
+    display: flex;
+    flex-direction: column;
+}
+.producto-title,
+.producto-marca,
+.producto-precio{
+    text-transform: uppercase;
+    margin-bottom: .3rem;
+}
+.producto-cantidad{
+    width: 50%;
+}
+.producto-btn{
+    height: 35px;
+    right: .1rem;
+    border: none;
+    cursor: pointer;
+    margin: .4rem 0;
+    /* background-color: #f8f8f8; */
+}
+.producto-btn:hover{
+    border: 1px solid #ccc;
+    /* background-color: #f2f2f2; */
+}
+
+/* ZONA DE FACTURACION */
+.facturas{
+    padding: 15px 10px;
+}
+.facturas div{
+    background-color: #fff;
+}
+.facturas .title{
+    margin: 0;
+}
+
+.header{
+    background-color: #1F4E79;
+    padding: 10px;
+}
+.header span{
+    color: #fff;
+}
+
+.collaps{
+    display: block;
+}
+
+/* TABALA */
+    /* TABLA REGISTRADOS */
+    table{
+        border-collapse: collapse;
+      }
+      table td{
+        /* border: 1px solid #999999; */
+        border-bottom: 1px solid #999999;
+        padding: 20px;
+      }
+      table.registrados thead{
+        /* background-color: #353535; */
+        border-bottom: 1px solid #353535;
+        /* color: #ffffff; */
+      }
+      table.registrados thead th{
+        padding: 10px;
+      }
+      table.registrados tr:nth-child(4n),
+      table.registrados tr:nth-child(4n-1){
+        background-color: #dcdcdc;
+      }
